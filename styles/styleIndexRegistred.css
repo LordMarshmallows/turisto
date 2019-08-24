@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+html{
+    margin: 0px;
+    padding: 0px;
+}
+article{
+    margin: 0px;
+    border: 10px silver;
+    height: 4000px;
+    padding: 0px;
+    background-image: url(../image/фон.png) 
+}
+article img{
+    margin: 0px;
+    
+    width: 100%;
+}
+.image{
+    margin: 0px;
+    background-image: url(../image/imege.png);
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    
+    background-repeat: no-repeat;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+footer{
+    height: 400px;
+    background-image: url(../image/footer.png);
+}
+
+
+.label{
+    margin-top: 24px;
+    width: 140px;
+    height: 27.5px;
+    float: right;
+    color: #a2b7dd;
+    font-size: 1.1em;
+    border: 2px hidden silver;
+}
+.search{
+  width: 300px;
+  height: 30px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    border: 2px solid #a2b7ddd0;
+    border-radius: 20px;
+    
+
+}
+.search input{
+    background: none; 
+    height: 27.5px;
+    color: #a2b7dd;    
+    border: none;
+    width: 215px;
+    margin-left: 5px;
+    outline: none;
+    margin-top: 1px;
+}
+::placeholder{
+    color: #a2b7dd8c;
+
+}
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.search-img{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    float:right;
+    margin-right: 5px; 
+}
+.text-in-center{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    height: 600px;
+    float: left;
+
+}
+.text-in-center h1{
+    text-align: center; 
+    font-size: 3.5em;
+    color: white;
+    text-shadow: 2px 2px 3px #a2b7dd;
+    font-family:'Roboto Slab', serif;
+    font-weight: 700;
+}
+.text-in-center h2{
+    margin-top: 20px;
+    text-align: center; 
+    font-size: 2.7em;
+    color: white;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 2px 2px 3px #a2b7dd;
+}
+.camp{
+    margin-top: 1900px;
+    border: #e84118 3px solid;
+    
+}
+.tent{
+    background-image: url(../image/campandbear.png) ;
+    margin-top: 100px;
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    float:right;
+    background-size: contain;
+}
+.moon{
+    
+    float: right;
+    background-image: url(../image/moon.png);
+    height: 150px;
+    width:150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.firecamp{
+    background-image: url(../image/campfire.png);
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float:right;
+    margin-top: 670px;
+    margin-right: 270px;
+
+}
+.navigation span{
+    float: right;
+   
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 5px;
+}
+span a{
+    
+    font-size: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    color: #a2b7dd;
+    font-family: 'Roboto Slab', serif;;
+
+}
+.navigation{
+  
+    float: right;
+    margin-right: 200px;
+}
+.home{
+    border-bottom: #a2b7dd solid 2px;
+}
+
+.profileImage {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    
+}
+.logo{
+    float: left;
+    
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo img{
+ height: 60px;
+ width: 220px;   
+}
+.btn{
+    width: 100px;
+}
+#Window{ 
+    display: none;
+    z-index: 1;
+    width: 100%;
+    height: 1000px;
+    background: #0901149d;
+    position: fixed;
+}
+.profileContent{
+    padding-top: 50px;
+   
+    border-top: #4906b6 solid 3px;
+    z-index: 2;
+    width: 40%;
+    height: 800px;
+    background:linear-gradient(180deg,#2a2158cc,#17123000);
+    border-radius: 80px;
+   
+    margin: 30%;
+    margin-top: 100px;
+    position: fixed;
+}
+
+.navigation span{
+    float: right;
+  
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+span a{
+    
+    font-size: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    color: #a2b7dd;
+    font-family: 'Roboto Slab', serif;
+
+}
+.navigation{
+  
+    float: right;
+    margin-right: 200px;
+}
+.logo{
+    float: left;
+   
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo img{
+    height: 60px;
+    width: 220px;   
+   }
+.profilImg{
+   background: #748bb4b6; 
+   margin-left: 50px;
+    border: #5206b6 solid 2px;
+   float: left;
+   height: 210px;
+   width: 210px;
+   border-radius: 105px;
+}
+.profilImg img{
+margin: 15px;
+height: 180px;
+   width: 180px;
+}
+.profilImg input{
+    margin-top: 20px;
+}
+.userInfo{
+   
+   
+    float: left;  
+    width: 14%;
+    padding-left: 40px;
+    
+}
+.info{
+    color: #b8aaf7d2;
+    display: block;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 40px;
+    
+}
+.PrintInfo{
+    white-space: nowrap;
+    color: #b8aaf7d2;
+    display: block;
+    width: 20%;
+    margin-top: 10px;
+    margin-right: 70px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.label{
+    
+    float: left;
+    width: 400px;
+    height: 180px;
+    margin-left: 25px;
+    
+}
+.label span{
+    color: #b8aaf7d2;
+    width: 300px;
+    font-family:'Lexend Deca', sans-serifs;
+    height: 40px;
+  
+    padding-left: 20px;
+    
+}
+.labelNameSurname{
+    font-size: 30px;
+}
+
+.lablelocation img{
+    margin-top: -7px;
+    height: 16px;
+    width: 11px;
+}
+.labelHobby{
+    margin-top: 0px;
+    display: block;
+    border-bottom: #4906b6 solid 2px;
+}
+.labelinfo{
+    margin-top: 20px;
+}
+.userInfo textarea{
+    width: 300px;
+    white-space: pre-wrap;
+    height: 300px;
+    resize: none;
+    overflow: hidden;
+    background: none;
+    border: none;
+}
+.skills span{
+    
+    color: #b8aaf7d2;
+    font-family: 'Lexend Deca', sans-serifs;
+    display: block;
+}
+.skills{
+    border-radius: 15px;
+    border-right: #4906b6 solid 2px;
+    background: linear-gradient(90deg,#17123041,#17123000);
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 100px;
+    padding-right: 5px;
+    float: left;
+   
+}
+.labelSkill{
+margin-left: -60px; 
+}
+.Edit{
+    margin-top: -20px;
+}
+a img{
+    height: 30px;
+    width: 30px;
+}
+.name{
+    border-bottom:#a2b7dd solid 1px ;
+    font-size: 1.3em;
+    color: #a2b7dd;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    top: -23px;
+}
+.profil img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.profil{
+    
+    height: 30px;
+}
+.nav{
+    border-bottom: #a2b7dd solid 1px;
+}

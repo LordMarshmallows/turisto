@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+html{
+    margin: 0px;
+    padding: 0px;
+}
+article{
+    margin: 0px;
+    border: 10px silver;
+    height: 4000px;
+    padding: 0px;
+    background-image: url(../image/фон.png)
+}
+article img{
+    margin: 0px;
+    
+    width: 100%;
+}
+.image{
+    margin: 0px;
+    background-image: url(../image/imege.png);
+    padding: 0px;
+    height: 1200px;
+    background-repeat: no-repeat;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+footer{
+    height: 400px;
+    background-image: url(../image/footer.png);
+}
+
+.register{
+   background: none;
+   margin-top:20px; 
+    margin-right: 5%;
+    height: 27.5px;
+    width: 90px;
+    border-radius: 15px;
+    border: 2px solid #a2b7dd;
+    text-decoration: none;
+    float: right;
+}
+.register h5{
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-left: 18px;
+    color: #a2b7dd;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.label{
+    margin-top: 24px;
+    width: 140px;
+    height: 27.5px;
+    float: right;
+    color: #a2b7dd;
+    font-size: 1.1em;
+    border: 2px hidden silver;
+}
+.search{
+  width: 250px;
+  height: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 2px solid #a2b7ddd0;
+    border-radius: 20px;
+    
+
+}
+.search input{
+    background: none; 
+    height: 27.5px;
+    color: #a2b7dd;    
+    border: none;
+    width: 215px;
+    margin-left: 5px;
+    outline: none;
+    margin-top: 1px;
+}
+::placeholder{
+    color: #a2b7dd8c;
+
+}
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.search-img{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    float:right;
+    margin-right: 5px; 
+}
+.text-in-center{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    height: 600px;
+    float: left;
+
+}
+.text-in-center h1{
+    text-align: center; 
+    font-size: 3.5em;
+    color: white;
+    text-shadow: 2px 2px 3px #a2b7dd;
+    font-family:'Roboto Slab', serif;
+    font-weight: 700;
+}
+.text-in-center h2{
+    margin-top: 20px;
+    text-align: center; 
+    font-size: 2.7em;
+    color: white;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 2px 2px 3px #a2b7dd;
+}
+.camp{
+    margin-top: 1900px;
+    border: #e84118 3px solid;
+    
+}
+.tent{
+    background-image: url(../image/campandbear.png) ;
+    margin-top: 100px;
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    float:right;
+    background-size: contain;
+}
+.moon{
+    
+    float: right;
+    background-image: url(../image/moon.png);
+    height: 150px;
+    width:150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.firecamp{
+background-image: url(../image/campfire.png);
+height: 100px;
+width: 100px;
+background-size: contain;
+background-repeat: no-repeat;
+float:right;
+margin-top: 670px;
+margin-right: 270px;
+
+}
+.logo{
+    float: left;
+    height: 60px;
+    width: 210px;
+    margin-left: 100px;
+    margin-top: 20px;
+}

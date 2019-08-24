@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navigation span{
+    float: right;
+    border-bottom: #a2b7dd solid 1px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 5px;
+}
+span a{
+    
+    font-size: 1.3em;
+    text-decoration: none;
+    text-transform: none;
+    color: #a2b7dd;
+    font-family: 'Roboto Slab', serif;;
+
+}
+.navigation{
+  
+    float: right;
+    margin-right: 200px;
+}
+body{
+    height: 100%;
+   
+    background-image: url(/image/stars.png) ;
+    resize: none;
+    background-repeat: none;
+}
+article{
+    border-top: #4906b6 solid 3px;
+    
+    width: 40%;
+    height: 800px;
+    background:linear-gradient(180deg,#17123069,#17123000);
+    border-radius: 80px;
+    margin-left: 30%;
+    margin-top: 100px;
+    position: absolute;
+}
+.profileContent{
+    
+    height: 100%;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+   
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo img{
+    height: 60px;
+    width: 220px;   
+   }
+.profilImg{
+   background: #748bb4b6; 
+   margin-left: 50px;
+    border: #5206b6 solid 2px;
+   float: left;
+   height: 210px;
+   width: 210px;
+   border-radius: 105px;
+}
+.profilImg img{
+margin: 15px;
+height: 180px;
+   width: 180px;
+}
+.profilImg input{
+    margin-top: 20px;
+}
+.userInfo{
+    margin-top: 40px;
+    float: left;  
+    width: 14%;
+    margin-left: 20px;
+}
+.info{
+    color: #b8aaf7d2;
+    display: block;
+    margin-top: 15px;
+    margin-left: 30px;
+    height: 40px;
+    
+}
+.PrintInfo{
+    white-space: nowrap;
+    color: #b8aaf7d2;
+    display: block;
+    width: 20%;
+    margin-top: 15px;
+    margin-right: 70px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.label{
+    float: left;
+    margin-left: 25px;
+    border-bottom: #4906b6 solid 2px;
+}
+.label span{
+    color: #b8aaf7d2;
+    width: 300px;
+    font-family:'Lexend Deca', sans-serifs;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+}
+.labelNameSurname{
+    font-size: 30px;
+}
+
+.lablelocation img{
+    margin-top: -7px;
+    height: 16px;
+    width: 11px;
+}
+.labelHobby{
+    margin-top: 0px;
+    display: block;
+}
+.labelinfo{
+    margin-top: 20px;
+}
+.userInfo textarea{
+    width: 300px;
+    white-space: pre-wrap;
+    height: 300px;
+    resize: none;
+    overflow: hidden;
+    background: none;
+    border: none;
+}
+.skills span{
+    
+    color: #b8aaf7d2;
+    font-family: 'Lexend Deca', sans-serifs;
+    display: block;
+}
+.skills{
+    border-radius: 15px;
+    border-left: #4906b6 solid 2px;
+    background: linear-gradient(90deg,#17123041,#17123000);
+    margin-top: 30px;
+    font-size: 20px;
+    padding-left:60px; 
+}
+.labelSkill{
+margin-left: -60px; 
+}
+.Edit{
+    margin-top: -20px;
+}
+a img{
+    height: 30px;
+    width: 30px;
+}
+
